@@ -29,3 +29,15 @@ If using Jupyter or Colab, simply run the cells in sequence to execute the code.
 1. Clone the repository using the following command:
    ```bash
    git clone https://github.com/saadahmadrana/Student_Performance_Tracker.git
+
+## CSV Export Feature
+You can now export student performance to a CSV file.
+
+Steps:
+1. Run the app: `python OOP_Project.py`
+2. Add students and scores.
+3. Choose menu option 3 to export results.
+4. Open `student_report.csv` in Excel or Google Sheets.
+
+Output columns:
+Student Name, Math, Science, English, Average, Status
